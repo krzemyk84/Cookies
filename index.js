@@ -19,7 +19,7 @@ const start_cookies_program = () => {
   var profit_per_batch = profit_per_cookie * 50;
   alert ("Profit per batch is: " + profit_per_batch.toFixed(2));
 
-  var want_restart = prompt ("Want to calculate it again? (y/n) ");
+  //var want_restart = prompt ("Want to calculate it again? (y/n) ");
   
   //want_restart ();
   //const restart = () => {
@@ -35,6 +35,6 @@ const start_cookies_program = () => {
   //  if
   //}
 }
-const restart_cookies_program = () => {
+//const restart_cookies_program = () => {
 start_cookies_program ();  
-}
+//}
