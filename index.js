@@ -17,24 +17,9 @@ const start_cookies_program = () => {
   var profit_per_cookie = selling_price_per_cookie - cost_per_cookie;
   alert ("Profit per cookie is: " + profit_per_cookie.toFixed(2));
   var profit_per_batch = profit_per_cookie * 50;
-  alert ("Profit per batch is: " + profit_per_batch.toFixed(2));
-
-  //var want_restart = prompt ("Want to calculate it again? (y/n) ");
-  
-  //want_restart ();
-  //const restart = () => {
-  //      if (want_restart = "y") {
-  //          restart_cookies_program();
-  //      }
-  //      else { }
-  //  }
-  
-  
-  
-  //var want_restart () {
-  //  if
-  //}
+  alert ("Profit per batch is: " + profit_per_batch.toFixed(2));  
 }
-//const restart_cookies_program = () => {
-start_cookies_program ();  
-//}
+
+start_cookies_program (); 
+
+
