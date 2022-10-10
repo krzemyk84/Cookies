@@ -7,7 +7,7 @@ const fuel = 4.75;
 const paper = 2.5;
 
 const start_cookies_program = () => {
-  var selling_price_per_cookie = prompt ("Please enter price of one cookie: ");
+  var selling_price_per_cookie = prompt ("Please enter the price of a cookie: ");
   //alert (selling_price_per_cookie);
   var cost_per_batch = flour + butter + eggs + sugar + flavour + fuel + paper;
   alert ("Cost per batch is: " + cost_per_batch.toFixed(2));
