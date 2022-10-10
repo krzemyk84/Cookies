@@ -17,12 +17,14 @@ const start_cookies_program = () => {
   alert ("Profit per cookie is: " + profit_per_cookie.toFixed(2));
   var profit_per_batch = profit_per_cookie * 50;
   alert ("Profit per batch is: " + profit_per_batch.toFixed(2));
+  
   const want_restart = prompt ("Do you want to try it again? (y/n) ");
   if (check_yes_or_no(want_restart)) {
+    //alert ("calling want reset function ")
     restart_app();
   }
   else {
-    prompt ("Bye!");
+    alert ("Bye!");
   }
 }
 const check_yes_or_no = (want_restart) => {
